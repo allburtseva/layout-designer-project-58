@@ -171,9 +171,10 @@ h3 {
   background-color: #42413c;
 }
 
-/* .section__nav container {
+.section__nav container {
   display: flex;
   justify-content: space-between;
+  padding-top: 200px;
 }
 
-.nav */
+.nav-card
