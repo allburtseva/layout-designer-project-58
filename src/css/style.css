@@ -57,6 +57,8 @@ h3 {
 
 h1 {
     font-size: 72px;
+    z-index: 1;
+    position: relative;
 }
 
 h2 {
@@ -103,6 +105,7 @@ h3 {
     top: 55px;
     right: -270px;
     height: 525px;
+    z-index: 0;
 }
 
 .header__wrapper {
@@ -177,4 +180,3 @@ h3 {
   padding-top: 200px;
 }
 
-.nav-card
