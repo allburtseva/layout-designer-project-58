@@ -81,8 +81,8 @@ p {
   display: flex;
 }
 
-.inline-block {
-  display: inline-block;
+.block {
+  display: block;
 }
 
 .mb-20 {
@@ -177,24 +177,25 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 485px;
+  padding-bottom: 513px;
 }
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
-  top: 329px;
+  bottom: -84px;
   border: none;
 }
 
 .section__video-description {
-  margin-top: 27px;
-  padding: 0 0 30px 0;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .section__video-header {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .section__nav {
@@ -223,7 +224,7 @@ p {
 
 .card-list__item:not(:first-child) {
   position: relative;
-  padding: 24px;
+  padding: 22px;
   background: var(--light);
   list-style-type: none;
   transition: background-color 0.3s ease-in;
@@ -240,7 +241,7 @@ p {
   display: inline-block;
   margin-bottom: 40px;
   font-family: var(--second-family);
-  font-weight: 400;
+
   font-size: 64px;
   line-height: 1;
   color: var(--primary-dark);
@@ -270,22 +271,22 @@ p {
 
 .card__title {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 34px;
-  line-height: 120%;
   color: var(--main);
   transition: color 0.3s ease-in;
 }
 .card__descr {
   margin: 0;
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 16px;
-  line-height: 160%;
   color: var(--dark);
   transition: color 0.3s ease-in;
+}
+
+.column {
+  flex-basis: 50%;
 }
 
 .effect .row {
@@ -295,9 +296,7 @@ p {
 .effect-title {
   margin-bottom: 30px;
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 60px;
-  line-height: 120%;
   color: var(--dark);
 }
 
@@ -305,18 +304,18 @@ p {
   display: block;
   margin: 0;
   font-size: 24px;
-  line-height: 120%;
+  line-height: 1;
   color: var(--half-dark);
 }
 
 .effect-subtitle {
   margin-top: 100px;
   margin-bottom: 20px;
-  padding: 5px 10px;
+  padding: 13px 10px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 14px;
-  line-height: 120%;
+  line-height: 0;
   text-transform: uppercase;
   color: var(--white);
   background-color: var(--brown);
@@ -325,18 +324,13 @@ p {
 .effect-descr {
   margin: 0;
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 34px;
-  line-height: 120%;
+  line-height: 1.2em;
   color: var(--dark);
 }
 
 .effect-text {
   font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  color: var(--dark);
 }
 
 .effect-img {
@@ -361,30 +355,27 @@ p {
 }
 
 .subscribe {
-  margin-bottom: 60px;
-  padding: 38px 55px 40px 55px;
+  margin-bottom: 76px;
+  padding: 38px 55px 45px 55px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--dark-main);
 }
 
-.subscribe__text p {
+.subscribe__title {
   font-family: var(--second-family);
-  font-weight: 400;
   font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .subscribe__form {
-  width: 50%;
+  width: calc((50% - 15px));
 }
 
 .subscribe__input-label {
   display: block;
   margin-bottom: 9px;
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 18px;
   line-height: 160%;
   color: var(--white);
@@ -392,7 +383,7 @@ p {
 
 .subscribe__input {
   box-sizing: border-box;
-  width: 100%;
+  width: calc(100% - 70px);
   padding: 15px;
   height: 50px;
   border: none;
@@ -400,7 +391,6 @@ p {
 
 .subscribe__input::placeholder {
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 13px;
   line-height: 160%;
   color: #757575;
@@ -426,7 +416,7 @@ p {
 
 .subscribe__descr {
   font-family: var(--font-family);
-  font-weight: 400;
+
   font-size: 12px;
   line-height: 160%;
   color: var(--white);
@@ -442,7 +432,7 @@ p {
   flex-direction: column;
   gap: 16px;
   font-family: var(--font-family);
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 160%;
   text-align: center;
