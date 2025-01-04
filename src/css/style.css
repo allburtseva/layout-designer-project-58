@@ -177,13 +177,14 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 460px;
+  padding-bottom: 485px;
 }
 
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   position: absolute;
   top: 329px;
+  border: none;
 }
 
 .section__video-description {
@@ -287,10 +288,6 @@ p {
   transition: color 0.3s ease-in;
 }
 
-.effect .row:not(:last-child) {
-  padding-bottom: 100px;
-}
-
 .effect .row {
   gap: 30px;
 }
@@ -313,6 +310,7 @@ p {
 }
 
 .effect-subtitle {
+  margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
   font-family: var(--font-family);
@@ -342,6 +340,7 @@ p {
 }
 
 .effect-img {
+  vertical-align: middle;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.15);
 }
 
