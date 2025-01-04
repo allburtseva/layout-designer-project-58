@@ -173,13 +173,14 @@ p {
 }
 
 .video {
-  margin-bottom: -100px;
+  margin-bottom: -200px;
 }
 
 .section__video {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 200px;
 }
 
 .link-img {
