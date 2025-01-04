@@ -226,7 +226,7 @@ p {
 
 .card-list__item:not(:first-child) {
   position: relative;
-  padding: 22px;
+  padding: 24px;
   background: var(--light);
   list-style-type: none;
   transition: background-color 0.3s ease-in;
