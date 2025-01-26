@@ -337,10 +337,10 @@ p {
 
 .effect-img {
   vertical-align: middle;
-  box-shadow: 0 16px 32px 0 rgba(0 0 0 15%);
+  box-shadow: 0 16px 32px 0 rgba(0 0 0 0.15);
 }
 
-.section-dark.effect-subtitle {
+.section-dark .effect-subtitle {
   color: var(--brown);
   background-color: var(--white);
 }
@@ -349,11 +349,11 @@ p {
   color: var(--white);
 }
 
-.section-dark.effect-title-small {
+.section-dark .effect-title-small {
   color: var(--half-white);
 }
 
-.section-dark.row:first-child {
+.section-dark .row:first-child {
   flex-direction: row-reverse;
 }
 
