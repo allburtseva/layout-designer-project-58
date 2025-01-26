@@ -8,34 +8,34 @@
   --half-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --font-family: 'Open Sans';
+  --font-family: "Open Sans";
   --second-family: neucha;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-VariableFont.ttf');
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Italic-VariableFont.ttf');
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic-VariableFont.ttf");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: Neucha;
-  src: url('../fonts/Neucha-Regular.ttf');
+  src: url("../fonts/Neucha-Regular.ttf");
 
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font: normal 16px/1.6em 'Open Sans', sans-serif;
+  font: normal 16px/1.6em "Open Sans", sans-serif;
   color: var(--dark);
 }
 
@@ -112,10 +112,10 @@ p {
 }
 
 .background::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -255,7 +255,7 @@ p {
 
 .card::after {
   position: absolute;
-  content: '';
+  content: "";
   inset: 0;
 }
 
@@ -410,7 +410,7 @@ p {
 
 .subscribe-btn::before {
   position: absolute;
-  content: url('../images/send.svg');
+  content: url("../images/send.svg");
   inset: 0;
   display: flex;
   align-items: center;
